@@ -3,7 +3,7 @@
 		"apps": [],
 		"details": [
 			{
-				"appID": "NNN2VMDPYM.com.chloeting.fitness",
+				"appID": "NNN2VMDPYM.com.chloeting.fitness.staging",
 				"paths": [
 					"/reset-password*",
 					"/teams*",
@@ -15,7 +15,7 @@
 	},
 	"webcredentials": {
 		"apps": [
-			"NNN2VMDPYM.com.chloeting.fitness"
+			"NNN2VMDPYM.com.chloeting.fitness.staging"
 		]
 	}
 }
