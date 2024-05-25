@@ -1,0 +1,21 @@
+{
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appID": "NNN2VMDPYM.com.chloeting.fitness",
+				"paths": [
+					"/reset-password*",
+					"/teams*",
+					"/user/update-email*",
+					"/user/*/verify*"
+				]
+			}
+		]
+	},
+	"webcredentials": {
+		"apps": [
+			"NNN2VMDPYM.com.chloeting.fitness"
+		]
+	}
+}
