@@ -20,7 +20,7 @@
                     },
                     {
                         "/": "/family/join",
-			"?": { "familyGroupID": "????", "joinCode": "????" },
+			"?": { "joinCode": "????" },
                         "comment": "Open Family Connect - join flow with RM Connect"
                     }
                 ]
