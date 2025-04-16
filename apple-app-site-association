@@ -1,55 +1,60 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appIDs": [
-                    "XART67UAZB.com.rookieme.connect2",
-                    "XART67UAZB.com.rookieme.connect2.staging",
-                    "XART67UAZB.com.rookieme.connect2.dev"
-                ],
-                "components": [
-                    {
-                        "#": "no_universal_links",
-                        "exclude": true,
-                        "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
-                    },
-                    {
-                        "/": "/t/*/connect",
-                        "comment": "Open teams with RM Connect"
-                    },
-                    {
-                        "/": "/join/*/family",
-                        "comment": "Open teams with RM Connect"
-                    },
-                    {
-                        "/": "/version",
-                        "comment": "Open teams with RM Connect"
-                    }
-                ]
-            },
-            {
-                "appIDs": [
-                    "XART67UAZB.com.rookieme.play",
-                    "XART67UAZB.com.rookieme.play.staging",
-                    "XART67UAZB.com.rookieme.play.dev"
-                ],
-                "components": [
-                    {
-                        "#": "no_universal_links",
-                        "exclude": true,
-                        "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
-                    },
-                    {
-                        "/": "/t/*/games/*",
-                        "comment": "Open games with RM Play"
-                    },
-                    {
-                        "/": "/t/*/play",
-                        "comment": "Open teams with RM Play"
-                    }
-                ]
-            }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "XART67UAZB.com.rookieme.connect2",
+          "XART67UAZB.com.rookieme.connect2.staging",
+          "XART67UAZB.com.rookieme.connect2.dev"
+        ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+          },
+          {
+            "/": "/t/*/connect",
+            "comment": "Open teams with RM Connect"
+          },
+          {
+            "/": "/join/*/family",
+            "comment": "Open teams with RM Connect"
+          },
+          {
+            "/": "/version/*",
+            "comment": "Open teams with RM Connect"
+          },
+          {
+            "/": "/family/join/*",
+            "?": { "joinCode": "????" },
+            "comment": "Open teams with RM Connect"
+          }
         ]
-    }
+      },
+      {
+        "appIDs": [
+          "XART67UAZB.com.rookieme.play",
+          "XART67UAZB.com.rookieme.play.staging",
+          "XART67UAZB.com.rookieme.play.dev"
+        ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+          },
+          {
+            "/": "/t/*/games/*",
+            "comment": "Open games with RM Play"
+          },
+          {
+            "/": "/t/*/play",
+            "comment": "Open teams with RM Play"
+          }
+        ]
+      }
+    ]
+  }
 }
