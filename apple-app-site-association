@@ -21,6 +21,10 @@
                     {
                         "/": "/join/*/family",
                         "comment": "Open teams with RM Connect"
+                    },
+                    {
+                        "/": "/version",
+                        "comment": "Open teams with RM Connect"
                     }
                 ]
             },
