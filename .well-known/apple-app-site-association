@@ -19,7 +19,7 @@
                         "comment": "Open teams with RM Connect"
                     },
                     {
-                        "/": "/family/join",
+                        "/": "/join",
                         "comment": "Open Family Connect - join flow with RM Connect"
                     }
                 ]
