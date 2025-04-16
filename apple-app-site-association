@@ -15,39 +15,8 @@
             "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
           },
           {
-            "/": "/t/*/connect",
-            "comment": "Open teams with RM Connect"
-          },
-          {
-            "/": "/join/*/family",
-            "comment": "Open teams with RM Connect"
-          },
-          {
-            "/": "/version/*",
-            "comment": "Open teams with RM Connect"
-          },
-          {
             "/": "/buy/*",
             "comment": "Matches any URL with a path that starts with /buy/."
-          },
-          {
-            "/": "/help/website/*",
-            "exclude": true,
-            "comment": "Matches any URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
-          },
-          {
-            "/": "/help/*",
-            "?": {
-              "articleNumber": "????"
-            },
-            "comment": "Matches any URL with a path that starts with /help/ and that has a query item with name 'articleNumber' and a value of exactly four characters."
-          },
-          {
-            "/": "/family/join/*",
-            "?": {
-              "joinCode": "????"
-            },
-            "comment": "Open teams with RM Connect"
           }
         ]
       },
